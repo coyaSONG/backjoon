@@ -13,7 +13,7 @@ namespace backjoon
                 int n = int.Parse(Console.ReadLine());
                 if(max <= n) { max = n; cnt = i+1; }
             }
-            Console.WriteLine(max+"\n"+cnt);
+            Console.WriteLine(max + "\n" + cnt);
         }
     }
 }
