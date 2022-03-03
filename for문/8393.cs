@@ -1,6 +1,6 @@
 using System;
 
-namespace BackJoon
+namespace baekjoon
 {
     class Program
     {
