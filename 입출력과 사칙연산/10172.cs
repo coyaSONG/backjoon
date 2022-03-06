@@ -1,6 +1,6 @@
 using System;
 
-namespace Workspace
+namespace baekjoon
 {
     class Program
     {
