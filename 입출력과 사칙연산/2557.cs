@@ -1,8 +1,14 @@
 using System;
-class Program
+
+namespace baekjoon
 {
-    static void Main()
+    class Program
     {
-        Console.WriteLine("Hello World!");
-    }
+        static void Main()
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }    
 }
+
+
