@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace nm
+namespace baekjoon
 {
     class Program
     {
