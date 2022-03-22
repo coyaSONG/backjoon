@@ -13,4 +13,4 @@ namespace baekjoon
             Console.WriteLine(a/b);
         }
     }
-}
+} 
