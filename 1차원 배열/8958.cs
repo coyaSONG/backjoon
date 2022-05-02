@@ -17,9 +17,7 @@ namespace baekjoon
                 foreach (char item in str)
                 {
                     if (item == 'O')
-                    {
                         cnt++;
-                    }
                     else
                         cnt = 0;
                     ans[i] += cnt;
