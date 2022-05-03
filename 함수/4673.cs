@@ -2,7 +2,7 @@ using System;
 
 namespace baekjoon
 {
-    class p4673
+    class Program
     {
         static void Main(string[] args)
         {
