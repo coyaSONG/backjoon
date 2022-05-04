@@ -6,8 +6,7 @@ namespace baekjoon
     {
         static void Main(string[] args)
         {
-            int answer = (int)Console.ReadLine()[0];
-            Console.WriteLine(answer);
+            Console.WriteLine((int)Console.ReadLine()[0]);
         }
     }
 }
