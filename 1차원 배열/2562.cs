@@ -6,8 +6,7 @@ namespace baekjoon
     {
         static void Main(string[] args)
         {
-            int cnt = 0;
-            int max = 0;
+            int cnt = 0, max = 0;
             for(int i=0;i<9;i++)
             {
                 int n = int.Parse(Console.ReadLine());
