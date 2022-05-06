@@ -7,8 +7,7 @@ namespace baekjoon
     {
         static void Main()
         {
-            int a = 1;
-            int b = 1;
+            int a = 1, b = 1;
             StringBuilder sb = new StringBuilder();
             
             while(a != 0 && b != 0)
