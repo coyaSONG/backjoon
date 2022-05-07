@@ -16,9 +16,7 @@ namespace baekjoon
 
 
                 for (int j = 0; j < n; j++)
-                {
                     apart[0,j] = j + 1;
-                }
 
                 for (int c = 0; c <= k; c++)
                 {
