@@ -14,8 +14,7 @@ namespace baekjoon
                 int h = int.Parse(input[0]);
                 int w = int.Parse(input[1]);
                 int n = int.Parse(input[2]);
-                int yy = 0;
-                int xx = 0;
+                int yy = 0, xx = 0;
 
                 if (n % h == 0)
                 {
