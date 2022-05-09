@@ -15,7 +15,7 @@ namespace baekjoon
             while (wallMax < input)
             {
                 wall++;
-                wallMax = wallMax + (6* cnt);
+                wallMax = wallMax + (6 * cnt);
                 cnt++;
             }
 
