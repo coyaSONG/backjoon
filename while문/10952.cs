@@ -17,7 +17,7 @@ namespace baekjoon
                 b = int.Parse(str[1]);
                 if(a != 0 && b != 0) sb.Append(a+b+"\n");
             }
-            Console.WriteLine(sb);
+            Console.WriteLine(sb);   
         }
     }
 }
