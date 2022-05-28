@@ -1,0 +1,27 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        var sr = new StreamReader(new BufferedStream(Console.OpenStandardInput()));
+        string S = sr.ReadLine();
+        List<string> arrStr = new List<string>();
+        
+        int startIndex = 0, len = 1;
+        while(startIndex + len <= S.Length)
+        {
+            arrStr.Add(S.Substring(startIndex,len));
+            startIndex++;
+            if(startIndex+len-1>=S.Length)
+            {
+                startIndex = 0;
+                len++;
+            }
+        }
+        Console.WriteLine(arrStr.Distinct().Count());
+    }
+}
