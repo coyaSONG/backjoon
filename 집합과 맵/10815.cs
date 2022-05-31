@@ -8,7 +8,7 @@ namespace baekjoon
         //이분탐색을 이용함
         static void Main(string[] args)
         {
-            StringBuilder sb = new StringBuilder();
+            var sb = new StringBuilder();
             int N = int.Parse(Console.ReadLine());
             int[] arr1 = Array.ConvertAll(Console.ReadLine().Split(),int.Parse);
             Array.Sort(arr1);
