@@ -24,11 +24,9 @@ class Program
         for(int i=0;i<N;i++)
         {
             string s = sr.ReadLine();
-            if(hs.Contains(s))
-            {
-                rst.Add(s);
-            }
+            if(hs.Contains(s)) rst.Add(s);
         }
+        
         rst.Sort();
         sw.WriteLine(rst.Count);
         sw.WriteLine(string.Join("\n",rst));
